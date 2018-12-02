@@ -28,7 +28,7 @@ def getMessage():
 @server.route("/")
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url='https://intense-spire-30367.herokuapp.com/' + TOKEN)
+    bot.set_webhook(url='https://floating-fortress-30838.herokuapp.com/' + TOKEN)
     return "!", 200
 
 
